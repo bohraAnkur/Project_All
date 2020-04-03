@@ -1,0 +1,37 @@
+# Maven: +35
+# General design: +75
+
+# Problem 1: (24/32)
+All ADT methods: +8
+Time Complexities: +8
+The time complexity for addFront is correct as per the implementation but it should always be done in O(1) time. Your implementation adds it to the end and not the front: -3
+You have created a list node interface, so that should have been used in the LinkedList instead of directly using the list node class: -1
+No equals(), hashcode() and toString() in emergency and priority queues and also in linkedlist: -4
+Tests: +16 
+
+# Problem 2: (34/34)
+Good use of comparator.
+All ADT methods: +13
+Complexity: +7
+Test: +14
+
+# Problem 3 (Patient): (27/32) +15
+Your UrgencyCareQueue deals with patients based on time of arrival, when it should have been based on urgency. Either is bad naming of classes or incorrect implementation: -3
+moreUrgentThan() in Patient is never used: -2
+All ADT methods: +7
+Complexities: +7
+Tests: +14
+Urgentcare: +5
+Use of comparator: 15/15 (BONUS)
+
+# LSP (3/5)
+Precondition and Postconditions are not just the input and return types. It deals with how the parent and child classes have similar or different pre/post conditions. (ex. exceptions that the methods throw in each classes)
+
+# Room (3/10)
+Room must have a list of switchObservers, switch does not need to have list of outlets.
+
+TOTAL: 201+15/223
+
+
+
+
