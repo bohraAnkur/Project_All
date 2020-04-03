@@ -1,0 +1,28 @@
+File reading writing in reco system. : -1
+
+long functions: -1
+
+magic numbers in core: -1
+
+no casting, used generic classes but not defined the types in core: -2
+
+why not iterable for class instead of making a iterator (line 198 core)
+
+Random order iterator , naming: -1
+
+naming flags: -1
+
+magic numbers in reco-system: -1
+
+Always getting the same recommendation: -5
+
+Total: 114/125
+
+
+
+
+
+
+
+
+
